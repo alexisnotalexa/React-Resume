@@ -27,11 +27,11 @@
   }
 
   .left {
-    width: 40%;
+    width: 30%;
   }
 
   .right {
-    width: 60%;
+    width: 70%;
     height: 100vh;
   }
 }

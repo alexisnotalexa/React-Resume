@@ -6,7 +6,7 @@ class Left extends Component {
       <div>
         <h1>Alexis Okamura</h1>
         <p>Full-Stack Developer based in Honolulu, HI</p>
-        <div classNamw="links">
+        <div className="links">
           <a href=""><i className="fas fa-envelope"></i></a>
           <a href=""><i className="fab fa-twitter"></i></a>
           <a href=""><i className="fab fa-github"></i></a>
