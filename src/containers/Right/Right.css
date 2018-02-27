@@ -1,0 +1,46 @@
+.test {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow: auto;
+  padding: 3rem;
+}
+
+h3, h4 {
+  margin: 0;
+}
+
+h3 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border: 0.5px solid;
+}
+
+.content {
+  margin-top: 1.5rem;
+}
+
+.container {
+  margin-bottom: 1.5rem;
+}
+
+.date {
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.description {
+  margin: 0.5rem;
+}
+
+.job {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
