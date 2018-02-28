@@ -24,7 +24,7 @@ class Right extends Component {
               <span>Altres - Honolulu, HI</span>
               <ul className="description">
                 <li>Tested and developed ALTRES’ HR Symphony software</li>
-                <li>Worked with a small team that follows agile software development methodologies and scrum</li>
+                <li>Worked with a small team that follows agile software development methodologies</li>
                 <li>Utilized Java, JSTL, Java Servlets, PowerMock, MySQL, MVC</li>
               </ul>
             </div>
@@ -35,9 +35,9 @@ class Right extends Component {
               </div>
               <span>CTAHR NEW Program - Honolulu, HI</span>
               <ul className="description">
-                <li>Tested and developed ALTRES’ HR Symphony software</li>
-                <li>Worked with a small team that follows agile software development methodologies and scrum</li>
-                <li>Utilized Java, JSTL, Java Servlets, PowerMock, MySQL, MVC</li>
+                <li>Contributed to website maintenance, testing, and development</li>
+                <li>Converted the CTAHR website to be ADA compliant</li>
+                <li>Assisted in troubleshooting hardware and software issues</li>
               </ul>
             </div>
           </div>
@@ -47,27 +47,27 @@ class Right extends Component {
           <div className="content">
             <div className="content-container">
               <div className="project">
+                <span className="title">Free Code Camp Projects</span>
+                <a href="https://codepen.io/alexisko/"><i className="fas fa-asterisk"></i></a>
+              </div>
+              <p>Currently completing various different front-end programming projects</p>
+              <p><strong>Technologies:</strong> HTML5/CSS3, jQuery, Javascript, Bootstrap</p>
+            </div>
+            <div className="content-container">
+              <div className="project">
                 <span className="title">Express Gallery</span>
                 <a href="https://github.com/alexisko/Express-Gallery"><i className="fas fa-asterisk"></i></a>
               </div>
-              <ul className="description">
-              </ul>
+              <p>A full-stack CRUD(Create/Read/Update/Delete) gallery web application</p>
+              <p><strong>Technologies:</strong> Node, Express, PostgreSQL, Sequelize, Handlebars, Redis, Gulp, SCSS, HTML5/CSS3</p>
             </div>
             <div className="content-container">
               <div className="project">
                 <span className="title">Help Your City</span>
                 <a href="https://helpyour.city/"><i className="fas fa-asterisk"></i></a>
               </div>
-              <ul className="description">
-              </ul>
-            </div>
-            <div className="content-container">
-              <div className="project">
-                <span className="title">Free Code Camp Projects</span>
-                <a href="https://codepen.io/alexisko/"><i className="fas fa-asterisk"></i></a>
-              </div>
-              <ul className="description">
-              </ul>
+              <p>Developed and designed a web application in a five-week timespan with a four person team to help people connect to each other during natural disasters</p>
+              <p><strong>Technologies:</strong> Node, Express, PostgreSQL, Sequelize, React, Redux, HTML5/CSS3, JWT, Twilio</p>
             </div>
           </div>
         </section>
@@ -81,7 +81,8 @@ class Right extends Component {
               </div>
               <span>Front-End Development Certification</span>
               <ul className="description">
-                <li>Currently completing over 400 hours of programming</li>
+                <li>Currently completing over 400 hours of front-end focused web development programming</li>
+                <li>Curriculum includes learning basic HTML5/CSS3, Javascript, jQuery, Bootstrap, and Algorithm scripting</li>
               </ul>
             </div>
             <div className="content-container">
@@ -92,6 +93,7 @@ class Right extends Component {
               <span>Javascript Web Engineer Track</span>
               <ul className="description">
                 <li>Completed over 800 hours hours of intensive web development programming over a six-month period</li>
+                <li>Devleague's curriculum is focused on teaching popular coding languages and technologies such as Node, AngularJS, React, Redux, SASS, Gulp, PostgreSQL, and MongoDB to name a few</li>
                 <li>Participated in AngelHack Global Hackathon with a team and created several Alexa skills for pet owners, July 2017</li>
               </ul>
             </div>
@@ -108,8 +110,8 @@ class Right extends Component {
             </div>
           </div>
         </section>
-        <section>
-          <button>GET A PDF OF MY RESUME</button>
+        <section className="bottom">
+          <button><a href="http://www.alexisokamura.com/assets/Alexis-Okamura-Resume.pdf" target="_blank">PDF VERSION</a></button>
         </section>
       </div>
     );

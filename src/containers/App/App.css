@@ -1,3 +1,42 @@
+a, a:link, a:active,
+a:hover, a:visited {
+  color: teal;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #006565;
+}
+
+button {
+  border: 0;
+  width: 100%;
+  background-color: #eee;
+  border-radius: 5px;
+  height: 3rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: lightseagreen;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+i {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  margin: 0 0 1rem 0;
+}
+
+section {
+  padding: 1.5rem 3rem 0 3rem;
+}
+
 .app {
   display: flex;
   flex-direction: column;

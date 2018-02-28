@@ -23,15 +23,6 @@
   margin-top: 0.5rem;
 }
 
-a {
-  color: teal;
-  margin-left: 1rem;
-}
-
-i {
-  font-size: 2rem;
-}
-
 .shaka {
   font-size: 2rem;
 }
@@ -46,6 +37,7 @@ i {
     padding-right: 1rem;
   }
 
+  /*CSS DRAWINGS*/
   .container {
     z-index: 3;
   }
