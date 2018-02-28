@@ -35,5 +35,10 @@ section {
 }
 
 @media only screen and (min-width : 900px) {
-
+  .right-container {
+    width: 70%;
+    height: 100vh;
+    flex: 1;
+    overflow: auto;
+  }
 }
