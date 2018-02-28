@@ -1,27 +1,30 @@
 .left-container {
+  background-color: lightseagreen;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   width: 100%;
 }
 
-.left-container > h1 {
+.container {
+  color: white;
+}
+
+.container > h1 {
   font-size: 3rem;
   margin: 0;
   text-transform: uppercase;
 }
 
-.left-container > p {
+.container > p {
   margin-top: 0.5rem;
 }
 
 a {
-  background-color: gold;
-  width: 30px;
-  height: 30px;
+  color: teal;
   margin-left: 1rem;
 }
 
@@ -35,9 +38,47 @@ i {
 
 @media only screen and (min-width: 900px) {
   .left-container {
-    width: 30%;
+    width: 340px;
     height: 100vh;
     padding: 0;
     justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .container {
+    z-index: 3;
+  }
+
+  .cadetblue {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-left: 125px solid cadetblue;
+  border-bottom: 125px solid cadetblue;
+  border-top: 125px solid transparent;
+  border-right: 125px solid transparent;
+  z-index: 1;
+  }
+
+  .teal {
+  position: absolute;
+  left: 172px;
+  bottom: 0;
+  border-left: 100px solid transparent;
+  border-bottom: 100px solid teal;
+  border-top: 100px solid transparent;
+  border-right: 100px solid teal;
+  }
+
+  .lightblue {
+    position: absolute;
+    bottom: 0;
+    left: 173px;
+    z-index: 2;
+    border-bottom: 38px solid lightblue;
+    border-top: 38px solid transparent;
+    border-left: 38px solid transparent;
+    border-right: 38px solid transparent;
   }
 }
