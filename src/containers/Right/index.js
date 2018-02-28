@@ -92,7 +92,7 @@ class Right extends Component {
               </div>
               <span>Javascript Web Engineer Track</span>
               <ul className="description">
-                <li>Completed over 800 hours hours of intensive web development programming over a six-month period</li>
+                <li>Completed over 800 hours of intensive web development programming over a six-month period</li>
                 <li>Devleague's curriculum is focused on teaching popular coding languages and technologies such as Node, AngularJS, React, Redux, SASS, Gulp, PostgreSQL, and MongoDB to name a few</li>
                 <li>Participated in AngelHack Global Hackathon with a team and created several Alexa skills for pet owners, July 2017</li>
               </ul>
