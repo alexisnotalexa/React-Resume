@@ -1,0 +1,40 @@
+.left-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 100%;
+}
+
+.left-container > h1 {
+  font-size: 3rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.left-container > p {
+  margin-top: 0.5rem;
+}
+
+a {
+  background-color: gold;
+  width: 30px;
+  height: 30px;
+  margin-left: 1rem;
+}
+
+i {
+  font-size: 2rem;
+}
+
+.shaka {
+  font-size: 2rem;
+}
+
+@media only screen and (min-width: 900px) {
+  .left-container {
+    width: 30%;
+  }
+}
