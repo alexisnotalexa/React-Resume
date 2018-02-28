@@ -31,7 +31,7 @@ class Right extends Component {
             <div className="content-container">
               <div className="job">
                 <span className="title">Assistant Web Developer</span>
-                <span className="date">October 2017 - February 2018</span>
+                <span className="date">September 2016 - May 2017</span>
               </div>
               <span>CTAHR NEW Program - Honolulu, HI</span>
               <ul className="description">
