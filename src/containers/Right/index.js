@@ -111,7 +111,7 @@ class Right extends Component {
           </div>
         </section>
         <section className="bottom">
-          <button><a href="http://www.alexisokamura.com/assets/Alexis-Okamura-Resume.pdf" target="_blank">PDF VERSION</a></button>
+          <button><a href="http://www.alexisokamura.com/assets/Alexis-Okamura-Resume.pdf">PDF VERSION</a></button>
         </section>
       </div>
     );
