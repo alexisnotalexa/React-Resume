@@ -8,9 +8,9 @@ class Right extends Component {
         <section>
           <h3>SKILLS</h3>
           <div className="content">
-            <p><strong>LANGUAGES:</strong> Javascript, HTML5, CSS3, Java, SQL</p>
-            <p><strong>LIBRARIES &amp; FRAMEWORKS:</strong> Node, Express, React, Redux, Handlebars, Bootstrap, AngularJS, jQuery, JSTL, PowerMock</p>
-            <p><strong>TOOLS:</strong> Git, Github, Sublime Text, Postman, Gulp, Eclipse, Adobe Photoshop &amp; Lightroom</p>
+            <p><strong>LANGUAGES:</strong> Javascript (ES5&amp;ES6), HTML5, CSS3/SCSS, Java, SQL</p>
+            <p><strong>LIBRARIES &amp; FRAMEWORKS:</strong> React, Redux, Angular, Node, Express, Handlebars, Bootstrap, jQuery, JSTL, PowerMock</p>
+            <p><strong>TOOLS:</strong> Git &amp; Github, Sublime Text, Visual Studio Code, Postman, Gulp, Eclipse, Adobe Photoshop, Dreamweaver, Lightroom</p>
           </div>
         </section>
         <section>
@@ -25,7 +25,7 @@ class Right extends Component {
               <ul className="description">
                 <li>Tested and developed ALTRES’ HR Symphony software</li>
                 <li>Worked with a small team that follows agile software development methodologies</li>
-                <li>Utilized Java, JSTL, Java Servlets, PowerMock, MySQL, MVC</li>
+                <li>Utilized Java, JSTL, Java Servlets, PowerMock, MySQL</li>
               </ul>
             </div>
             <div className="content-container">
@@ -47,6 +47,14 @@ class Right extends Component {
           <div className="content">
             <div className="content-container">
               <div className="project">
+                <span className="title">Table for Two - AT&amp;T Hackathon 2018</span>
+                <a href="https://github.com/alexisko/ATTHackathon2018"><i className="fas fa-asterisk"></i></a>
+              </div>
+              <p>Designed an app to connect you to someone nearby so that you won’t have to eat alone.  Heavily focused on curating an experience for users that’s fast, delightful, and easy to use.</p>
+              <p><strong>Technologies:</strong> React Native, Express, Node, MongoDB</p>
+            </div>
+            <div className="content-container">
+              <div className="project">
                 <span className="title">Free Code Camp Projects</span>
                 <a href="https://codepen.io/alexisko/"><i className="fas fa-asterisk"></i></a>
               </div>
@@ -58,16 +66,16 @@ class Right extends Component {
                 <span className="title">Express Gallery</span>
                 <a href="https://github.com/alexisko/Express-Gallery"><i className="fas fa-asterisk"></i></a>
               </div>
-              <p>A full-stack CRUD(Create/Read/Update/Delete) gallery web application</p>
-              <p><strong>Technologies:</strong> Node, Express, PostgreSQL, Sequelize, Handlebars, Redis, Gulp, SCSS, HTML5/CSS3</p>
+              <p>Built a full-stack gallery web application based on a given design spec.</p>
+              <p><strong>Technologies:</strong> Node, Express, PostgreSQL, SCSS, Gulp, Redis, Handlebars, HTML5/CSS3</p>
             </div>
             <div className="content-container">
               <div className="project">
                 <span className="title">Help Your City</span>
                 <a href="https://helpyour.city/"><i className="fas fa-asterisk"></i></a>
               </div>
-              <p>Developed and designed a web application in a five-week timespan with a four person team to help people connect to each other during natural disasters</p>
-              <p><strong>Technologies:</strong> Node, Express, PostgreSQL, Sequelize, React, Redux, HTML5/CSS3, JWT, Twilio</p>
+              <p>Developed a web app with a team to help connect people in need to others that can help them during natural disasters without needing to communicate to an overloaded network of first responders.</p>
+              <p><strong>Technologies:</strong> Node, React, Redux, PostgreSQL, Express, JWT, Twilio, Sequelize</p>
             </div>
           </div>
         </section>
@@ -104,8 +112,8 @@ class Right extends Component {
               </div>
               <span>BA in Computer Science + Certificate in Japanese Language</span>
               <ul className="description">
-                <li>Dean’s Honor List, Fall 2012</li>
                 <li>Japanese Literature Poetry Contest Winner, Spring 2012</li>
+                <li>Dean’s Honor List, Fall 2012</li>
               </ul>
             </div>
           </div>
