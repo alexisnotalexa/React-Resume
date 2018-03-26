@@ -15,9 +15,9 @@
 
 .job {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
 }
 
 .title {
@@ -45,5 +45,12 @@
     height: 100vh;
     flex: 1;
     overflow: auto;
+  }
+
+  .job {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 }
