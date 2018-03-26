@@ -48,7 +48,7 @@ class Right extends Component {
             <div className="content-container">
               <div className="project">
                 <span className="title">Table for Two - AT&amp;T Hackathon 2018</span>
-                <a href="https://github.com/alexisko/ATTHackathon2018"><i className="fas fa-asterisk"></i></a>
+                <a href="https://github.com/alexisnotalexa/ATTHackathon2018"><i className="fas fa-asterisk"></i></a>
               </div>
               <p>Designed an app to connect you to someone nearby so that you won’t have to eat alone.  Heavily focused on curating an experience for users that’s fast, delightful, and easy to use.</p>
               <p><strong>Technologies:</strong> React Native, Express, Node, MongoDB</p>
@@ -56,7 +56,7 @@ class Right extends Component {
             <div className="content-container">
               <div className="project">
                 <span className="title">Free Code Camp Projects</span>
-                <a href="https://codepen.io/alexisko/"><i className="fas fa-asterisk"></i></a>
+                <a href="https://codepen.io/alexisnotalexa/"><i className="fas fa-asterisk"></i></a>
               </div>
               <p>Currently completing various different front-end programming projects</p>
               <p><strong>Technologies:</strong> HTML5/CSS3, jQuery, Javascript, Bootstrap</p>
@@ -64,7 +64,7 @@ class Right extends Component {
             <div className="content-container">
               <div className="project">
                 <span className="title">Express Gallery</span>
-                <a href="https://github.com/alexisko/Express-Gallery"><i className="fas fa-asterisk"></i></a>
+                <a href="https://github.com/alexisnotalexa/Express-Gallery"><i className="fas fa-asterisk"></i></a>
               </div>
               <p>Built a full-stack gallery web application based on a given design spec.</p>
               <p><strong>Technologies:</strong> Node, Express, PostgreSQL, SCSS, Gulp, Redis, Handlebars, HTML5/CSS3</p>
