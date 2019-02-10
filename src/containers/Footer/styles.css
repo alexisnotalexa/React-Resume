@@ -1,0 +1,11 @@
+.footer {
+  display: flex;
+  align-items: center;
+}
+
+.footer--divider {
+  height: 30px;
+  width: 1px;
+  background: black;
+  margin: 1rem;
+}

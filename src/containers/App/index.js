@@ -2,15 +2,17 @@ import React, { Component } from 'react';
 import './App.css';
 
 // COMPONENTS
-import Left from "../Left";
-import Right from "../Right";
+import Content from '../Content';
+import Header from "../Header";
+import Footer from "../Footer";
 
 class App extends Component {
   render() {
     return (
       <div className="app">
-        <Left />
-        <Right />
+        <Header />
+        <Content />
+        <Footer />
       </div>
     );
   }
